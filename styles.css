@@ -6,6 +6,14 @@ body {
   background-color: #A9A9A9;
 }
 
+a {
+  text-decoration: none;
+}
+
+  a:hover {
+    font-weight: 600;
+  }
+
 header {
   background-color: rgba(0,0,0,0.8);
   height: 45px;
