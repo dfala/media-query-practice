@@ -25,6 +25,10 @@ header {
     color: #fff;
   }
 
+  header .sticky-right {
+    display: block;
+  }
+
 
 .sticky-right {
   float: right;
@@ -47,7 +51,10 @@ header {
     text-align: center;
   }
 
-
+footer {
+  position: fixed;
+  bottom: 0;
+}
 
 @media (max-width: 600px) {
   a {
