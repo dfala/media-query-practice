@@ -6,6 +6,12 @@ body, h1, h2, h3, h4, h5, h6, p, a {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+p {
+  line-height: 27px;
+  font-weight: 100;
+  font-size: 24px;
+}
+
 body {
   background-color: #A9A9A9;
 }
@@ -45,7 +51,7 @@ header {
 
 
 .container {
-  background-color: #fff;
+  background-color: #fafafa;
   margin: 0 auto;
   width: 100%;
   border-radius: 2px;
@@ -55,11 +61,23 @@ header {
 
   display: flex;
   align-items: center;
+  position: relative;
 }
 
   .container img {
-    max-width: 100%;
-    text-align: center;
+    max-width: 300px;
+    position: absolute;
+    bottom: 180px;
+    max-width: 450px;
+    max-height: 600px;
+  }
+
+  .container img.left {
+    left: 0;
+  }
+
+  .container img.right {
+    right: 200px;
   }
 
 .text-wrapper {
